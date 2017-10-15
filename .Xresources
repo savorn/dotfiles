@@ -9,3 +9,11 @@ URxvt.letterSpace: -1
 URxvt.font: xft:Fira Mono:size=11,style=medium
 ! bold font
 Urxvt.boldFont: xft:Fira Mono:pixelsize=11,style=bold
+
+! ---------- Fontconfig settings ----------
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintnone
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
