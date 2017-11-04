@@ -7,9 +7,9 @@ URxvt.scrollBar: 0
 ! decrease spacing between letters
 URxvt.letterSpace: -1
 ! font
-URxvt.font: xft:Fira Mono:size=11,style=medium
+URxvt.font: xft:Fira Mono Medium:size=11
 ! bold font
-Urxvt.boldFont: xft:Fira Mono:pixelsize=11,style=bold
+Urxvt.boldFont: xft:Fira Mono Medium:pixelsize=11,style=bold
 
 ! ---------- Fontconfig settings ----------
 Xft.autohint: 0
