@@ -1,3 +1,6 @@
+# add fonts for X applications
+xset +fp ~/.fonts/ttf
+
 # rxvt-unicode daemon
 urxvtd -q -o -f
 
