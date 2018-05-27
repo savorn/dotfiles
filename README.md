@@ -6,4 +6,6 @@ Files can be named preceded with a dot (e.g. /home/savorn/**.vimrc**) or located
 
 This respository keeps track of all the changes to my dotfiles.
 
-
+## Current Setup
+Hardware: Lenovo ThinkPad 13 Gen 1
+Distribution/OS: Debian Unstable
