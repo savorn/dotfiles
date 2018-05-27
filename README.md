@@ -8,8 +8,8 @@ This respository keeps track of all the changes to my dotfiles.
 
 ## Current Setup
 **Hardware:** Lenovo ThinkPad 13 Gen 1  
-**Distribution/OS:** Debian Unstable  
-**Window Manager:** i3  
+**Distribution/OS:** [Debian](https://www.debian.org/) Unstable  
+**Window Manager:** [i3](https://i3wm.org/)  
 **Desktop Environment:** None  
 **Shell:** Bash  
 
