@@ -7,7 +7,7 @@ Files can be named preceded with a dot (e.g. /home/savorn/**.vimrc**) or located
 This respository keeps track of all the changes to my dotfiles.
 
 ### How to use my dotfiles
-1. Clone the repository.
+1. Clone the repository.  
    `git clone https://github.com/savorn/dotfiles.git ~/dotfiles`
 
 2. Create symbolic links using `ln -s` command.
