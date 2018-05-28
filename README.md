@@ -19,11 +19,11 @@ This repository keeps track of all the changes to my dotfiles.
 `bashrc` configuration for shell **Bash**.  
 
 ### Font Configuration
-`fonts.conf` contain font settings.  
+`fonts.conf` contain per-user font settings.  
 
 ### Text Editor
 `vimrc` settings for text editor [vim](https://github.com/vim/vim).  
 
 ### Miscellaneous
-`redshift.conf` settings for [Redshift](https://github.com/jonls/redshift) - controls screen color temperature and reduces eyestrain.  
+`redshift.conf` settings for [redshift](https://github.com/jonls/redshift) - controls screen color temperature and reduces eyestrain.  
 
