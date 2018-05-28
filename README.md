@@ -8,13 +8,13 @@ This respository keeps track of all the changes to my dotfiles.
 
 ### How to use my dotfiles
 1. Clone the repository.
-...`git clone https://github.com/savorn/dotfiles.git ~/dotfiles`
+   `git clone https://github.com/savorn/dotfiles.git ~/dotfiles`
 
 2. Create symbolic links using `ln -s` command.
-...```
-ln -s "~/dotfiles/i3/config" ~/.config/i3/config
-ln -s "~/dotfiles/i3/i3status.conf" ~/.i3status.conf
-```
+   ```
+   ln -s "~/dotfiles/i3/config" ~/.config/i3/config
+   ln -s "~/dotfiles/i3/i3status.conf" ~/.i3status.conf
+   ```
 
 ## Current Setup
 **Hardware:** Lenovo ThinkPad 13 Gen 1  
