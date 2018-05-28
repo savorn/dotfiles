@@ -6,18 +6,9 @@ Files can be named preceded with a dot (e.g. /home/savorn/**.vimrc**) or located
 
 This respository keeps track of all the changes to my dotfiles.
 
-### How to use my dotfiles
-1. Clone the repository.  
-   `git clone https://github.com/savorn/dotfiles.git ~/dotfiles`
+## Current Setup
 
-2. Create symbolic links using `ln -s` command.
-   ```
-   ln -s "~/dotfiles/i3/config" ~/.config/i3/config
-   ln -s "~/dotfiles/i3/i3status.conf" ~/.i3status.conf
-   ln -s "~/dotfiles/Xresources" ~/.Xresources
-   ln -s "~/dotfiles/bashrc" ~/.bashrc
-   ln -s "~/dotfiles/fonts.conf" ~/.config/fontconfig/fonts.conf
-   ln -s "~/dotfiles/redshift.conf" ~/.config/redshift.conf
-   ln -s "~/dotfiles/vimrc" ~/.vimrc
-   ln -s "~/dotfiles/xinitrc" ~/.xinitrc
-   ```
+### Window Manager
+`i3/config` configuration for [i3](https://i3wm.org/docs/userguide.html) window manager. Located in `/home/<username>/.config/i3/config`.  
+`i3/i3status.conf` configuration for [i3 status](https://i3wm.org/i3status/manpage.html) bar. Located in `/home/<username>/.i3status.conf.  
+
