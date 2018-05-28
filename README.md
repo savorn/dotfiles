@@ -10,5 +10,5 @@ This respository keeps track of all the changes to my dotfiles.
 
 ### Window Manager
 `i3/config` configuration for [i3](https://i3wm.org/docs/userguide.html) window manager. Located in `/home/<username>/.config/i3/config`.  
-`i3/i3status.conf` configuration for [i3 status](https://i3wm.org/i3status/manpage.html) bar. Located in `/home/<username>/.i3status.conf.  
+`i3/i3status.conf` configuration for [i3 status](https://i3wm.org/i3status/manpage.html) bar. Located in `/home/<username>/.i3status.conf`.  
 
