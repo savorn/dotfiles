@@ -7,11 +7,10 @@ Files can be named preceded with a dot (e.g. /home/savorn/**.vimrc**) or located
 This respository keeps track of all the changes to my dotfiles.
 
 ## Current Setup
+### Xorg settings
+`Xresources` settings for terminal emulator `urxvt` and font configuration.  
+`xinitrc` allow execution of start up applications and window manager using the `startx` command.  
 
 ### Window Manager
 `i3/config` configuration for [i3](https://i3wm.org/docs/userguide.html) window manager.  
-&nbsp;&nbsp;&nbsp;&nbsp;Directory `/home/<username>/.config/i3/config`
-
-
-`i3/i3status.conf` configuration for [i3 status](https://i3wm.org/i3status/manpage.html) bar.  
-&nbsp;&nbsp;&nbsp;&nbsp;Directory `/home/<username>/.i3status.conf` 
+`i3/i3status.conf` configuration for [i3 status](https://i3wm.org/i3status/manpage.html) bar.
