@@ -1,6 +1,7 @@
 ! ---------- URxvt settings ----------
 ! load colors
-#include "/home/savorn/.colors/tango"
+!#include "/home/savorn/.colors/tango"
+#include "/home/savorn/.colors/gruvbox-dark"
 ! directory to icon file
 !URxvt.iconFile: /usr/share/icons/Papirus-Adapta/16x16/apps/Terminal.svg
 !URxvt.iconFile: /usr/share/icons/Paper/16x16/apps/terminal.png
@@ -11,7 +12,7 @@ URxvt.letterSpace: -1
 ! font
 URxvt.font: xft:Fira Mono Medium:pixelsize=15
 ! bold font
-Urxvt.boldFont: xft:Fira Mono Bold:pixelsize=15
+URxvt.boldFont: xft:Fira Mono Medium:pixelsize=15
 
 ! ---------- Fontconfig settings ----------
 Xft.autohint: 0

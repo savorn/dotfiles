@@ -1,6 +1,5 @@
 # start up applications
-redshift-gtk &
-pasystray &
+redshift &
 
 # URxvt daemon
 urxvtd -q -o -f
