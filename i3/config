@@ -191,8 +191,8 @@ client.urgent           $red $red $white $red $red
 for_window [class="URxvt"] border pixel 4
 # Firefox
 for_window [class="Firefox"] border pixel 0
-# Chromium
-for_window [class="Chromium"] border pixel 0
+# Chrome
+for_window [class="Google-chrome"] border pixel 0
 # KeepassXC
 for_window [class="keepassxc"] border pixel 0
 

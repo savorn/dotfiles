@@ -1,6 +1,10 @@
 # start up applications
 redshift &
 
+# xscreensaver lock screen
+xscreensaver -nosplash &
+xss-lock -- xscreensaver-command -lock &
+
 # URxvt daemon
 urxvtd -q -o -f
 
