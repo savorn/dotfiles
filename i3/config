@@ -150,17 +150,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# set colors based on gruvbox colorscheme
-set $bg #282828
-set $red #cc241d
-set $green #98971a
-set $yellow #d79921
-set $blue #458588
-set $purple #b16286
-set $aqua #689d68
-set $gray #a89984
-set $darkgray #1d2021
-
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
@@ -168,27 +157,19 @@ bar {
 	position top
 	separator_symbol "  "
 	colors {
-		# set background color
-		background $bg
-		# set status line color
-		statusline $gray
-		# set workspace color [border background text]
-		focused_workspace $gray $gray $darkgray
-		inactive_workspace $darkgray $darkgray $gray
-		active_workspace $gray $gray $darkgray
-		urgent_workspace $red $red $darkgray
+		background #323232
+		statusline #C8C8C8
+		
+		focused_workspace #323232 #323232 #06989A
+		active_workspace #323232 #323232 #06989A
+		inactive_workspace #323232 #323232 #C8C8C8
+		urgent_workspace #323232 #323232 #CC0000
 	}
 }
 
-# set class colors [border background text indicator child_border]
-client.focused          $blue $blue $darkgray $gray $darkgray
-client.focused_inactive $darkgray $darkgray $yellow $gray $darkgray
-client.unfocused        $darkgray $darkgray $yellow $gray $darkgray
-client.urgent           $red $red $white $red $red
-
 # Arbitrary commands for specific windows
 # Urxvt
-for_window [class="URxvt"] border pixel 4
+for_window [class="URxvt"] border pixel 1
 # Firefox
 for_window [class="Firefox"] border pixel 0
 # Chrome
@@ -204,3 +185,27 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 # Brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+
+set $black #2E3436
+set $black2 #555753
+set $red #CC0000
+set $red2 #EF2929
+set $green #4E9A06
+set $green2 #8AE234
+set $yellow #C4A000
+set $yellow2 #FCE94F
+set $blue #3465A4
+set $blue2 #729FCF
+set $magenta #75507B
+set $magenta2 #AD7FA8
+set $cyan #06989A
+set $cyan2 #34E2E2
+set $white #D3D7CF
+set $white2 #EEEEEC
+
+# client colors
+client.focused $black2 $black2 $white $cyan $cyan
+client.focused_inactive $black $black $white $black2 $black2
+client.unfocused $black $black $white $black2 $black2
+client.urgent $black2 $black2 $white $red $red
+client.placeholder $black2 $black2 $white $yellow $yellow
