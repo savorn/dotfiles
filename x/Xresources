@@ -11,8 +11,14 @@ URxvt.scrollBar: 0
 URxvt.letterSpace: -1
 ! font
 URxvt.font: xft:Fira Mono Medium:pixelsize=15
+!URxvt.font: -*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
+!URxvt.font: xft:Gohufont
+!URxvt.font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
 ! bold font
 URxvt.boldFont: xft:Fira Mono Medium:pixelsize=15
+!URxvt.boldFont: -*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
+!URxvt.boldFont: xft:Gohufont
+!URxvt.boldFont: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
 
 ! ---------- Fontconfig settings ----------
 Xft.autohint: 0
