@@ -2,6 +2,7 @@
 ! load colors
 #include "/home/savorn/.colors/tango"
 !#include "/home/savorn/.colors/gruvbox-dark"
+!#include "/home/savorn/.colors/dracula"
 ! directory to icon file
 !URxvt.iconFile: /usr/share/icons/Papirus-Adapta/16x16/apps/Terminal.svg
 !URxvt.iconFile: /usr/share/icons/Paper/16x16/apps/terminal.png
@@ -11,12 +12,12 @@ URxvt.scrollBar: 0
 URxvt.letterSpace: -1
 ! font
 URxvt.font: xft:Fira Mono Medium:pixelsize=15
-!URxvt.font: -*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
+!URxvt.font: xft:Tamsyn:size=13
 !URxvt.font: xft:Gohufont
 !URxvt.font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
 ! bold font
 URxvt.boldFont: xft:Fira Mono Medium:pixelsize=15
-!URxvt.boldFont: -*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
+!URxvt.boldFont: xft:Tamsyn:size=13
 !URxvt.boldFont: xft:Gohufont
 !URxvt.boldFont: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
 
