@@ -1,5 +1,5 @@
 # start up applications
-redshift &
+redshift-gtk &
 blueman-applet &
 
 # xscreensaver lock screen
@@ -18,9 +18,6 @@ xrdb ~/.Xresources
 # allow fonts in X server
 xset +fp ~/.fonts/gohufont
 xset +fp ~/.fonts/ttf
-xset +fp ~/.fonts/tamsyn
-xset +fp /usr/share/fonts/opentype/font-awesome
-xset +fp /usr/share/fonts/X11/misc
 xset fp rehash
 
 # execute window manager

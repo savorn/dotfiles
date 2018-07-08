@@ -11,12 +11,12 @@ URxvt.scrollBar: 0
 ! decrease spacing between letters
 URxvt.letterSpace: -1
 ! font
-URxvt.font: xft:Fira Mono Medium:pixelsize=15
+URxvt.font: xft:Fira Mono Medium:pixelsize=16
 !URxvt.font: xft:Tamsyn:size=13
 !URxvt.font: xft:Gohufont
 !URxvt.font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
 ! bold font
-URxvt.boldFont: xft:Fira Mono Medium:pixelsize=15
+URxvt.boldFont: xft:Fira Mono Medium:pixelsize=16
 !URxvt.boldFont: xft:Tamsyn:size=13
 !URxvt.boldFont: xft:Gohufont
 !URxvt.boldFont: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
