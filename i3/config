@@ -154,6 +154,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 		status_command i3status
+		tray_output primary
 		position top
 		separator_symbol "  "
 		colors {
@@ -174,6 +175,7 @@ for_window [class="URxvt"] border pixel 1
 for_window [class="Firefox"] border pixel 0
 # Chrome
 for_window [class="Chromium"] border pixel 0
+for_window [class="Google-chrome"] border pixel 0
 # KeepassXC
 for_window [class="keepassxc"] border pixel 0
 # Zathura

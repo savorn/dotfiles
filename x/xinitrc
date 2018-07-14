@@ -18,6 +18,7 @@ xrdb ~/.Xresources
 # allow fonts in X server
 xset +fp ~/.fonts/gohufont
 xset +fp ~/.fonts/ttf
+xset +fp ~/.fonts/bdf
 xset fp rehash
 
 # execute window manager
