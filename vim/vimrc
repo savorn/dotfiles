@@ -2,6 +2,7 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'morhetz/gruvbox'
 call vundle#end()
 
 syntax enable
@@ -17,7 +18,7 @@ set smartcase
 set backspace=indent,eol,start
 set number
 set cursorline
-set background=light
+set background=dark
 
 set tabstop=4
 set softtabstop=4
@@ -29,4 +30,4 @@ set guioptions-=L "remove left-hand scroll bar
 set guifont=Fira\ Mono\ Medium\ 11
 
 " colorscheme
-colorscheme PaperColor
+colorscheme gruvbox

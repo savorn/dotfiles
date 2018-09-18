@@ -1,7 +1,7 @@
 ! ---------- URxvt settings ----------
 ! load colors
-#include "/home/savorn/.colors/tango"
-!#include "/home/savorn/.colors/gruvbox-dark"
+!#include "/home/savorn/.colors/tango"
+#include "/home/savorn/.colors/gruvbox-dark"
 !#include "/home/savorn/.colors/dracula"
 !#include "/home/savorn/.colors/solarized-light"
 !#include "/home/savorn/.colors/solarized-dark"

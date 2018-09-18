@@ -1,13 +1,13 @@
 # start up applications
-redshift-gtk &
-blueman-applet &
+redshift &
+#blueman-applet &
 
 # xscreensaver lock screen
 xscreensaver -nosplash &
 xss-lock -- xscreensaver-command -lock &
 
 # load wallpaper using feh
-sh ~/.fehbg
+#sh ~/.fehbg
 
 # URxvt daemon
 urxvtd -q -o -f
@@ -16,10 +16,12 @@ urxvtd -q -o -f
 xrdb ~/.Xresources
 
 # allow fonts in X server
+xset +fp ~/.fonts/Fira
 xset +fp ~/.fonts/gohufont
-xset +fp ~/.fonts/ttf
-xset +fp ~/.fonts/bdf
+#xset +fp ~/.fonts/ttf
+#xset +fp ~/.fonts/bdf
 xset fp rehash
 
 # execute window manager
 exec i3
+#exec dwm
