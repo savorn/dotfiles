@@ -1,3 +1,10 @@
+# trackpoint configuration
+xinput set-prop 13 "Device Accel Constant Deceleration" 0.5
+xinput set-prop 13 "Evdev Wheel Emulation" 1
+xinput set-prop 13 "Evdev Wheel Emulation Button" 2
+xinput set-prop 13 "Evdev Wheel Emulation Timeout" 200
+xinput set-prop 13 "Evdev Wheel Emulation Axes" 6 7 4 5
+
 # start up applications
 redshift &
 #blueman-applet &
@@ -18,9 +25,11 @@ xrdb ~/.Xresources
 # allow fonts in X server
 xset +fp ~/.fonts/Fira
 xset +fp ~/.fonts/gohufont
-#xset +fp ~/.fonts/ttf
-#xset +fp ~/.fonts/bdf
+xset +fp ~/.fonts/tamsyn
 xset fp rehash
+
+# turn beep off
+xset -b
 
 # execute window manager
 exec i3
