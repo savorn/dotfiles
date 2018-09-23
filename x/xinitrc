@@ -14,7 +14,7 @@ xscreensaver -nosplash &
 xss-lock -- xscreensaver-command -lock &
 
 # load wallpaper using feh
-#sh ~/.fehbg
+sh ~/.fehbg
 
 # URxvt daemon
 urxvtd -q -o -f
