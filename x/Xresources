@@ -16,15 +16,15 @@ URxvt.scrollBar: 0
 ! font
 !URxvt.font: xft:Fira Mono Medium:pixelsize=15
 URxvt.font: -*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
-!URxvt.font: xft:Gohufont
+!URxvt.font: -*-gohufont-medium-*-*-*-14-*-*-*-*-*-*-*
 !URxvt.font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
-!URxvt.font: -*-tamzenforpowerline-medium-*-*-*-20-*-*-*-*-*-*-*
+!URxvt.font: -*-tamzen-medium-*-*-*-17-*-*-*-*-*-*-*
 ! bold font
 !URxvt.boldFont: xft:Fira Mono Medium:pixelsize=15
-URxvt.boldFont: -*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
-!URxvt.boldFont: xft:Gohufont
+URxvt.boldFont: -*-tamsyn-bold-*-*-*-17-*-*-*-*-*-*-*
+!URxvt.boldFont: -*-gohufont-medium-*-*-*-14-*-*-*-*-*-*-*
 !URxvt.boldFont: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
-!URxvt.boldFont: -*-tamzenforpowerline-medium-*-*-*-20-*-*-*-*-*-*-*
+!URxvt.boldFont: -*-tamzen-bold-*-*-*-17-*-*-*-*-*-*-*
 
 ! ---------- Fontconfig settings ----------
 Xft.autohint: 0

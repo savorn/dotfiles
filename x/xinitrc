@@ -26,6 +26,7 @@ xrdb ~/.Xresources
 xset +fp ~/.fonts/Fira
 xset +fp ~/.fonts/gohufont
 xset +fp ~/.fonts/tamsyn
+xset +fp ~/.fonts/tamzen-font/bdf
 xset fp rehash
 
 # turn beep off

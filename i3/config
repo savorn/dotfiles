@@ -150,28 +150,46 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# gruvbox colors
+set $bg #282828
+set $red #cc241d
+set $green #98971a
+set $yellow #d79921
+set $blue #458588
+set $purple #b16286
+set $aqua #689d68
+set $gray #a89984
+set $darkgray #1d2021
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
 		status_command i3status
 		tray_output primary
 		position top
-		separator_symbol " "
+		separator_symbol "|"
 		colors {
-				background #323232
-				statusline #C8C8C8
-				separator #D3D7CF
+				background $bg
+				statusline $gray
+				separator $gray
 		
-				focused_workspace #06989A #323232 #C8C8C8
-				active_workspace #323232 #323232 #06989A
-				inactive_workspace #323232 #323232 #C8C8C8
-				urgent_workspace #323232 #323232 #CC0000
+				focused_workspace $gray $gray $darkgray
+				active_workspace $darkgray $darkgray $gray
+				inactive_workspace $darkgray $darkgray $gray
+				urgent_workspace $red $red $bg
 		}
 }
 
+# Client colors
+# class			border|backgr|text|indicator|child_border
+client.focused          $green $green $darkgray $blue $darkgray
+client.focused_inactive $darkgray $darkgray $yellow $blue $darkgray
+client.unfocused        $darkgray $darkgray $yellow $blue $darkgray
+client.urgent 		$red $red $white $red $red
+
 # Arbitrary commands for specific windows
 # Urxvt
-for_window [class="URxvt"] border pixel 1
+for_window [class="URxvt"] border pixel 2
 # Firefox
 for_window [class="Firefox"] border pixel 0
 # Chrome
@@ -183,6 +201,10 @@ for_window [class="keepassxc"] border pixel 0
 for_window [class="Zathura"] border pixel 0
 # Visual studio code
 for_window [class="Code"] border pixel 0
+# Fceux
+for_window [class="Fceux"] border pixel 0
+# MPV
+for_window [class="mpv"] border pixel 0
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -195,28 +217,3 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 # Keybinds
 bindsym Ctrl+l exec --no-startup-id "xscreensaver-command -lock"
-
-set $bg #000000
-set $black #2E3436
-set $black2 #555753
-set $red #CC0000
-set $red2 #EF2929
-set $green #4E9A06
-set $green2 #8AE234
-set $yellow #C4A000
-set $yellow2 #FCE94F
-set $blue #3465A4
-set $blue2 #729FCF
-set $magenta #75507B
-set $magenta2 #AD7FA8
-set $cyan #06989A
-set $cyan2 #34E2E2
-set $white #D3D7CF
-set $white2 #EEEEEC
-
-# client colors
-client.focused $black2 $black2 $white $blue $black2
-client.focused_inactive $black $black $white $bg $bg
-client.unfocused $black $black $white $bg $bg
-client.urgent $black2 $black2 $white $red $red
-client.placeholder $black2 $black2 $white $yellow $yellow
