@@ -1,32 +1,8 @@
-! ---------- URxvt settings ----------
-! load colors
-!#include "/home/savorn/.colors/tango"
 #include "/home/savorn/.colors/gruvbox-dark"
-!#include "/home/savorn/.colors/dracula"
-!#include "/home/savorn/.colors/solarized-light"
-!#include "/home/savorn/.colors/solarized-dark"
-!#include "/home/savorn/.colors/papercolor"
-! directory to icon file
-!URxvt.iconFile: /usr/share/icons/Papirus-Adapta/16x16/apps/Terminal.svg
-!URxvt.iconFile: /usr/share/icons/Paper/16x16/apps/terminal.png
-! disable scrollbar on the right
 URxvt.scrollBar: 0
-! decrease spacing between letters
-!URxvt.letterSpace: -1
-! font
-!URxvt.font: xft:Fira Mono Medium:pixelsize=15
-URxvt.font: -*-tamsyn-medium-*-*-*-17-*-*-*-*-*-*-*
-!URxvt.font: -*-gohufont-medium-*-*-*-14-*-*-*-*-*-*-*
-!URxvt.font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
-!URxvt.font: -*-tamzen-medium-*-*-*-17-*-*-*-*-*-*-*
-! bold font
-!URxvt.boldFont: xft:Fira Mono Medium:pixelsize=15
-URxvt.boldFont: -*-tamsyn-bold-*-*-*-17-*-*-*-*-*-*-*
-!URxvt.boldFont: -*-gohufont-medium-*-*-*-14-*-*-*-*-*-*-*
-!URxvt.boldFont: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
-!URxvt.boldFont: -*-tamzen-bold-*-*-*-17-*-*-*-*-*-*-*
+URxvt.font: -*-tamsyn-medium-*-*-*-16-*-*-*-*-*-*-*
+URxvt.boldFont: -*-tamsyn-bold-*-*-*-16-*-*-*-*-*-*-*
 
-! ---------- Fontconfig settings ----------
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintnone

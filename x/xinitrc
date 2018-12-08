@@ -1,37 +1,39 @@
-# trackpoint configuration
-xinput set-prop 13 "Device Accel Constant Deceleration" 0.5
-xinput set-prop 13 "Evdev Wheel Emulation" 1
-xinput set-prop 13 "Evdev Wheel Emulation Button" 2
-xinput set-prop 13 "Evdev Wheel Emulation Timeout" 200
-xinput set-prop 13 "Evdev Wheel Emulation Axes" 6 7 4 5
+# xscreensaver daemon
+xscreensaver -no-splash &
 
-# start up applications
-redshift &
-#blueman-applet &
-
-# xscreensaver lock screen
-xscreensaver -nosplash &
+# screen lock
 xss-lock -- xscreensaver-command -lock &
 
-# load wallpaper using feh
-sh ~/.fehbg
+# trackpoint settings
+xinput set-prop "ETPS/2 Elantech TrackPoint" "Device Accel Constant Deceleration" 0.3
+xinput set-prop "ETPS/2 Elantech TrackPoint" "Evdev Wheel Emulation" 1
+xinput set-prop "ETPS/2 Elantech TrackPoint" "Evdev Wheel Emulation Axes" 6 7 4 5
+xinput set-prop "ETPS/2 Elantech TrackPoint" "Evdev Wheel Emulation Button" 2
 
-# URxvt daemon
+# keybinds
+xbindkeys
+
+# urxvt daemon
 urxvtd -q -o -f
+
+# change color temperature for day and night
+redshift -l 35:-80 &
+
+# set bitmap wallpapers
+xsetroot -bitmap ~/src/bitmap-walls/bw-bgnd/Brick.xbm -bg '#312e39'
+
+# fonts for X
+xset +fp ~/.fonts/tamsyn
+xset fp rehash
+
+# turn beep off
+xset b off
 
 # load X resources
 xrdb ~/.Xresources
 
-# allow fonts in X server
-xset +fp ~/.fonts/Fira
-xset +fp ~/.fonts/gohufont
-xset +fp ~/.fonts/tamsyn
-xset +fp ~/.fonts/tamzen-font/bdf
-xset fp rehash
+# dwm status script
+sh ~/bin/dwmstatus &
 
-# turn beep off
-xset -b
-
-# execute window manager
-exec i3
-#exec dwm
+# start windows manager
+exec dwm
