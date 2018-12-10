@@ -5,7 +5,7 @@ xscreensaver -no-splash &
 xss-lock -- xscreensaver-command -lock &
 
 # trackpoint settings
-xinput set-prop "ETPS/2 Elantech TrackPoint" "Device Accel Constant Deceleration" 0.3
+xinput set-prop "ETPS/2 Elantech TrackPoint" "Device Accel Constant Deceleration" 0.4
 xinput set-prop "ETPS/2 Elantech TrackPoint" "Evdev Wheel Emulation" 1
 xinput set-prop "ETPS/2 Elantech TrackPoint" "Evdev Wheel Emulation Axes" 6 7 4 5
 xinput set-prop "ETPS/2 Elantech TrackPoint" "Evdev Wheel Emulation Button" 2
@@ -20,7 +20,7 @@ urxvtd -q -o -f
 redshift -l 35:-80 &
 
 # set bitmap wallpapers
-xsetroot -bitmap ~/src/bitmap-walls/bw-bgnd/Brick.xbm -bg '#312e39'
+#xsetroot -bitmap ~/src/bitmap-walls/bw-bgnd/Brick.xbm -bg '#312e39'
 
 # fonts for X
 xset +fp ~/.fonts/tamsyn
@@ -33,7 +33,7 @@ xset b off
 xrdb ~/.Xresources
 
 # dwm status script
-sh ~/bin/dwmstatus &
+~/bin/dwmstatus.sh
 
 # start windows manager
 exec dwm
