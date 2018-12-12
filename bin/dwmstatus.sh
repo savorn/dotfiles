@@ -27,8 +27,13 @@ disk() {
 	echo "hd $diskspace"
 }
 
+wifi() {
+	wifiper=$(cat /proc/net/wireless | grep 'wlp3s0' | awk '{ print $3 }' | tr -d .)
+	echo "wifi $wifiper%"
+}
+
 while true;
 do
-	xsetroot -name "$(disk) | $(mem) | $(vol) | $(batt) | $(dte)"
+	xsetroot -name "$(disk) | $(mem) | $(vol) | $(batt) | $(wifi) | $(dte)"
 	sleep 2
 done &
