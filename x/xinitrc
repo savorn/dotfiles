@@ -1,3 +1,6 @@
+# set wallpaper
+sh ~/.fehbg
+
 # xscreensaver daemon
 xscreensaver -no-splash &
 
@@ -18,9 +21,6 @@ urxvtd -q -o -f
 
 # change color temperature for day and night
 redshift -l 35:-80 &
-
-# set bitmap wallpapers
-#xsetroot -bitmap ~/src/bitmap-walls/bw-bgnd/Brick.xbm -bg '#312e39'
 
 # fonts for X
 xset +fp ~/.fonts/tamsyn
