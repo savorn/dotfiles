@@ -1,9 +1,0 @@
-# neovim alias
-alias nv='nvim'
-
-# git aliases
-alias gits='git status' # display current status
-alias gita='git add' # stage
-alias gitaa='git add -A' # stage all
-alias gitcm='git commit -m' # commit message
-alias gitp='git push' # push commit
