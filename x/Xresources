@@ -1,7 +1,7 @@
 #include "/home/savorn/.colors/gruvbox-dark"
 URxvt.scrollBar: 0
-URxvt.font: -*-tamsyn-medium-*-*-*-16-*-*-*-*-*-*-*
-URxvt.boldFont: -*-tamsyn-bold-*-*-*-16-*-*-*-*-*-*-*
+URxvt.font: -*-tamzen-medium-*-*-*-17-*-*-*-*-*-*-*
+URxvt.boldFont: -*-tamzen-bold-*-*-*-17-*-*-*-*-*-*-*
 
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
