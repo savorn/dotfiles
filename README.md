@@ -13,3 +13,10 @@ am not responsible for any damages.
 
 ## License
 ![unlicense](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/32px-PD-icon.svg.png)
+
+[Unlicense.org](http://unlicense.org/)
+
+[Savorn Meuk](https://github.com/savorn) has waived all copyright. Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
