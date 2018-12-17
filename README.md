@@ -5,3 +5,7 @@ These files are located inside the user's home directory (e.g. /home/savorn/).
 Files can be named preceded with a dot (e.g. /home/savorn/**.vimrc**) or located in a directory preceded with a dot (e.g. /home/savorn/**.config/**).
 
 This repository keeps track of all the changes to my dotfiles.
+
+### Current system
+Info on the current system using neofetch
+![current system](neofetch.png)
