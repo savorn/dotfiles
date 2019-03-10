@@ -24,8 +24,7 @@ redshift -l 35:-80 &
 
 # fonts for X
 xset +fp ~/.fonts/tamsyn
-xset +fp ~/.fonts/Fira/ttf
-xset +fp ~/.fonts/tamzen/bdf
+xset +fp ~/.fonts/Sourcecode
 xset fp rehash
 
 # turn beep off
