@@ -1,12 +1,34 @@
 " GUI options
 set guioptions -=T "hide toolbar
+set guioptions -=m "hide menu
 set guioptions -=r "no right hand scrollbar
 set guioptions -=L "no left hand scrollbar
-set guifont=Source\ Code\ Pro\ 11
+set guifont=Source\ Code\ Pro\ Semibold\ 12
 
 " turn error bell and visual bell off
-set noeb vb t_vb=
+set noerrorbells visualbell t_vb=
 
 " colorscheme
 set background=light
 colorscheme PaperColor "https://github.com/NLKNguyen/papercolor-theme
+
+" settings
+syntax enable
+set autoindent
+filetype plugin indent on
+set number
+set ruler
+set showcmd
+set cursorline
+set showmatch
+set incsearch
+set hlsearch
+set lazyredraw
+set laststatus=2
+
+" tab settings
+set tabstop=8
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
