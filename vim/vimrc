@@ -1,10 +1,3 @@
-" GUI options
-set guioptions -=T "hide toolbar
-set guioptions -=m "hide menu
-set guioptions -=r "no right hand scrollbar
-set guioptions -=L "no left hand scrollbar
-set guifont=Source\ Code\ Pro\ Semibold\ 12
-
 " turn error bell and visual bell off
 set noerrorbells visualbell t_vb=
 
