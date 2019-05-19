@@ -2,6 +2,11 @@
 set guioptions -=T "hide toolbar
 set guioptions -=r "no right hand scrollbar
 set guioptions -=L "no left hand scrollbar
+set guifont=Source\ Code\ Pro\ 11
 
 " turn error bell and visual bell off
 set noeb vb t_vb=
+
+" colorscheme
+set background=light
+colorscheme PaperColor "https://github.com/NLKNguyen/papercolor-theme
