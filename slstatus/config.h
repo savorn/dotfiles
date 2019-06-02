@@ -68,5 +68,5 @@ static const struct arg args[] = {
 	{ run_command, "%s | ", "amixer get Master | grep 'Front Left:' | awk '{print $6}'" },
 	{ wifi_perc, "wifi: %s%% ", "wlp3s0" },
 	{ wifi_essid, "[%s] | ", "wlp3s0" },
-	{ datetime, "%s", "%a %I:%M %p" },
+	{ datetime, "%s", "%a, %b %d  %I:%M %p" },
 };
