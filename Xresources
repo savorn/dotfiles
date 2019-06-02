@@ -1,0 +1,4 @@
+! ~/.Xresources
+
+#include ".Xresources.d/urxvt"
+#include ".Xresources.d/fontconfig"
