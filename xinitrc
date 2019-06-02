@@ -1,3 +1,6 @@
+# urxvt daemon
+urxvtd -q -o -f
+
 # load xresources
 xrdb ~/.Xresources
 
