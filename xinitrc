@@ -1,3 +1,6 @@
+# load xresources
+xrdb ~/.Xresources
+
 # xscreensaver lock
 xscreensaver -no-splash &
 xss-lock -- xscreensaver-command --lock &
