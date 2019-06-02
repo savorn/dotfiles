@@ -1,3 +1,7 @@
+# xscreensaver lock
+xscreensaver -no-splash &
+xss-lock -- xscreensaver-command --lock &
+
 # fonts
 xset +fp ~/.fonts/tamsyn
 xset fp rehash
