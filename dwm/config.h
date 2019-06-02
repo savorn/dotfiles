@@ -66,6 +66,10 @@ static const char *volup[] = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "+5
 static const char *voldown[] = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "-5%", NULL };
 static const char *volmute[] = { "pactl", "set-sink-mute", "@DEFAULT_SINK@", "toggle", NULL };
 
+/* brightness control */
+static const char *brightdown[] = { "xbacklight", "-dec", "10", NULL };
+static const char *brightup[] = { "xbacklight", "-inc", "10", NULL };
+
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -104,6 +108,8 @@ static Key keys[] = {
 	{ 0, XF86XK_AudioRaiseVolume, spawn, {.v = volup } },
 	{ 0, XF86XK_AudioLowerVolume, spawn, {.v = voldown } },
 	{ 0, XF86XK_AudioMute, spawn, {.v = volmute } },
+	{ 0, XF86XK_MonBrightnessUp, spawn, {.v = brightup } },
+	{ 0, XF86XK_MonBrightnessDown, spawn, {.v = brightdown } },
 };
 
 /* button definitions */
