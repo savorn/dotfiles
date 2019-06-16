@@ -1,9 +1,9 @@
 ! ~/.Xresources.d/urxvt
 
 ! font settings
-URxvt.font: xft:Fira Code:pixelsize=16
-URxvt.boldFont: xft:Fira Code:pixelsize=16:style=bold
-URxvt.letterSpace: -1
+URxvt.font: xft:tamsyn:size=14
+URxvt.boldFont: xft:tamsyn:size=14:style=bold
+!URxvt.letterSpace: -1
 
 ! gui settings
 URxvt.scrollBar: 0
