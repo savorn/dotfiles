@@ -1,0 +1,10 @@
+! The following line will prevent styles from setting the background.
+! background: none
+toolbar.font: Ubuntu-11
+menu.title.font: Ubuntu-11
+menu.frame.font: Ubuntu-11
+toolbar.clock.font: Ubuntu-11
+toolbar.workspace.font: Ubuntu-11
+toolbar.iconbar.focused.font: Ubuntu-11:bold
+toolbar.iconbar.unfocused.font: Ubuntu-11
+*font: Ubuntu-11
