@@ -15,7 +15,12 @@ getbatt () {
 	echo "batt: $printbatt%"
 }
 
+getdisk () {
+	printdisk=$(df -h . | grep '/home' | awk '{ print $4 }')
+	echo "/home $printdisk"
+}
+
 while true; do
-	xsetroot -name "$(getvolume) | $(getbatt) | $(timedate)"
-	sleep 10s
+	xsetroot -name "$(getdisk) | $(getvolume) | $(getbatt) | $(timedate)"
+	sleep 1s
 done
