@@ -1,3 +1,7 @@
+# screensaver lock
+xscreensaver -no-splash &
+xss-lock -- xscreensaver-command -lock &
+
 # change color temp based on time of day
 redshift &
 
