@@ -1,3 +1,6 @@
+# keybinds
+xbindkeys
+
 # wallpaper
 ~/.fehbg
 
@@ -6,26 +9,18 @@ xscreensaver -no-splash &
 xss-lock -- xscreensaver-command -lock &
 
 # change color temp based on time of day
-redshift-gtk &
-
-# volume icon
-volumeicon &
-
-# battery icon
-cbatticon &
-
-# network-manager icon
-nm-applet &
+redshift &
 
 # X resources
 xrdb ~/.Xresources
 
 # fonts
-xset +fp ~/.fonts/tamsyn
+xset +fp ~/.fonts/Fira
+xset +fp ~/.fonts/tamsyn-font
 xset fp rehash
 
 # dwm status script
-~/bin/dwmstatus &
+~/dotfiles/bin/dwmstatus &
 
 # start window manager
 exec dwm
