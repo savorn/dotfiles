@@ -5,11 +5,6 @@ timedate () {
 	echo $printdate
 }
 
-getdisk () {
-	printdisk=$(df -h . | grep '/home' | awk '{ print $4 }')
-	echo "/home $printdisk"
-}
-
 getload () {
 	printload=$(cat /proc/loadavg | awk '{ print $1, $2, $3 }')
 	echo $printload
@@ -20,7 +15,12 @@ getmem () {
 	echo $printmem
 }
 
+getbat () {
+	printbat=$(cat /sys/class/power_supply/BAT1/capacity)
+	echo "bat: $printbat%"
+}
+
 while true; do
-	xsetroot -name "$(getdisk) | $(getmem) | $(getload) | $(timedate)"
-	sleep 1s
+	xsetroot -name "$(getmem) | $(getload) | $(getbat) | $(timedate)"
+	sleep 1m
 done
