@@ -1,6 +1,0 @@
-[submodule "dwm"]
-	path = dwm
-	url = https://github.com/savorn/dwm
-[submodule "st"]
-	path = st
-	url = https://github.com/savorn/st
