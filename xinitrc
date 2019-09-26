@@ -20,7 +20,7 @@ xset +fp ~/.fonts/tamsyn-font
 xset fp rehash
 
 # dwm status script
-~/dotfiles/bin/dwmstatus &
+slstatus &
 
 # start window manager
 exec dwm
