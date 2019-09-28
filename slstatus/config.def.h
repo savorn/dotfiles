@@ -66,7 +66,7 @@ static const struct arg args[] = {
 	{ disk_free, "disk_free: %s | ", "/home" },
 	{ ram_used, "ram_used: %s | ", NULL },
 	{ cpu_perc, "cpu: %s% | ", NULL },
-	{ run_command, "vol: %s | ", "amixer get Master | grep 'Front Left:' | awk '{ print $5 }' | tr -d []" },
+	{ run_command, "vol: %s | ", "amixer get Master | grep 'Mono:' | awk '{ print $4 }' | tr -d []" },
 	{ battery_perc, "bat: %s% | ", "BAT1" },
 	{ datetime, "%s",           "%a %I:%M %p" },
 };
