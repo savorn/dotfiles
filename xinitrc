@@ -4,9 +4,12 @@ xbindkeys
 # wallpaper
 ~/.fehbg
 
+# screen timeout
+xset s 1200
+
 # screensaver lock
 xscreensaver -no-splash &
-xss-lock -- xscreensaver-command -lock &
+xss-lock -- slock -m "LOCKED: PASSWORD REQUIRED" &
 
 # change color temp based on time of day
 redshift &
