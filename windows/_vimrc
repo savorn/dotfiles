@@ -1,0 +1,19 @@
+"Gvim settings
+set guioptions -=T " remove toolbar
+set guioptions -=r " remove right scroll
+set guioptions -=L " remove left scroll
+set guifont=Consolas:h12 " set font
+set noerrorbells visualbell t_vb= " disable bell
+autocmd GUIEnter * set visualbell t_vb=
+
+"colorscheme
+set t_Co=256
+set background=dark
+colorscheme PaperColor
+
+" options
+set backspace=indent,eol,start
+syntax on
+set number
+set laststatus=2
+set autoindent
