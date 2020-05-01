@@ -12,8 +12,15 @@ set background=dark
 colorscheme PaperColor
 
 " options
+set nocompatible
 set backspace=indent,eol,start
 syntax on
 set number
 set laststatus=2
 set autoindent
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set textwidth=120
+set showmatch
