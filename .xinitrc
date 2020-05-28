@@ -11,11 +11,6 @@ redshift &
 # X resources
 xrdb ~/.Xresources
 
-# fonts
-#xset +fp ~/.fonts/Fira
-#xset +fp ~/.fonts/tamsyn-font
-#xset fp rehash
-
 # dwm status script
 slstatus &
 
