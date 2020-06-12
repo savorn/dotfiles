@@ -9,7 +9,7 @@ xss-lock -- xscreensaver-command -lock &
 redshift &
 
 # X resources
-xrdb ~/.Xresources
+xrdb /home/savorn/config/.Xresources
 
 # dwm status script
 slstatus &
