@@ -1,8 +1,7 @@
 " color scheme
-set t_Co=256
-
+set t_Co=256:
 set background=dark
-colorscheme PaperColor
+colorscheme default
 
 " options
 syntax on
