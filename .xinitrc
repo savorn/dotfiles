@@ -11,6 +11,15 @@ redshift &
 # X resources
 xrdb /home/savorn/config/.Xresources
 
+# network manager applet
+nm-applet &
+
+# battery monitor
+cbatticon &
+
+# volume icon
+volumeicon &
+
 # dwm status script
 slstatus &
 
