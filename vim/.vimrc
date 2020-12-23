@@ -1,9 +1,13 @@
+"GVim settings
+set guioptions -=T
+set guifont=Consolas:h10 
+
 " color scheme
-set t_Co=256:
-set background=dark
-colorscheme default
+set background=light
+colorscheme solarized
 
 " options
 syntax on
 set number
 set laststatus=2
+set backspace=indent,eol,start
