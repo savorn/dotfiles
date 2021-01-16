@@ -1,3 +1,4 @@
 ! ~/.Xresources
 
-#include "/home/savorn/config/Xresources.d/fontconfig"
+#include "/home/savorn/dotfiles/Xresources.d/fontconfig"
+#include "/home/savorn/dotfiles/Xresources.d/urxvt"

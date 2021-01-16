@@ -1,0 +1,10 @@
+! set font
+URxvt.font: xft:DejaVu Sans Mono:style=Book:pixelsize=13
+URxvt.boldFont: xft:DejaVu Sans Mono:style=Bold:pixelsize=13
+URxvt.italicFont: xft:DejaVu Sans Mono:style=Oblique:pixelsize=13
+
+! font spacing
+URxvt.letterSpace: -1
+
+! hide scrollbar
+URxvt.scrollBar: 0
