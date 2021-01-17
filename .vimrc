@@ -1,15 +1,14 @@
-"GVim settings
-set guioptions -=T " disable toolbar
-set guifont=Consolas:h10 " set font
-
 " color scheme
-set background=light " set background
-colorscheme solarized " colorscheme
+packadd! dracula
+syntax enable
+set background=dark " set background
+let g:dracula_italic = 1
+let g:dracula_bold = 1
+colorscheme dracula " colorscheme
 
 " options
 set nocompatible " reset options when re-source .vimrc
 filetype indent plugin on " auto-indent for each filetype
-syntax on " turn syntax on
 set number " turn line numbers on
 set laststatus=2 " show statusline
 set backspace=indent,eol,start " allow backspacing
