@@ -47,6 +47,10 @@ exec xrdb -merge ~/.Xresources
 exec xset +fp /usr/share/fonts/misc
 exec xset fp rehash
 
+# control backlight
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
