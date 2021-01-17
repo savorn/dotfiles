@@ -1,10 +1,11 @@
 ! set font
-URxvt.font: xft:DejaVu Sans Mono:style=Book:pixelsize=13
-URxvt.boldFont: xft:DejaVu Sans Mono:style=Bold:pixelsize=13
-URxvt.italicFont: xft:DejaVu Sans Mono:style=Oblique:pixelsize=13
+URxvt.font: -*-dina-medium-r-*-*-13-*-*-*-*-*-*-*
+URxvt.boldFont: -*-dina-bold-r-*-*-13-*-*-*-*-*-*-*
+URxvt.italicFont: -*-dina-medium-i-*-*-13-*-*-*-*-*-*-*
+URxvt.boldItalicFont: -*-dina-bold-i-*-*-13-*-*-*-*-*-*-*
 
 ! font spacing
-URxvt.letterSpace: -1
+!URxvt.letterSpace: -1
 
 ! hide scrollbar
 URxvt.scrollBar: 0
