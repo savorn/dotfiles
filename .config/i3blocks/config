@@ -1,0 +1,128 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=true
+separator_block_width=0
+
+[space]
+full_text= 
+color=#FF92D0
+background=#FF92D0
+
+[memory]
+command=~/.local/libexec/i3blocks/memory
+label= 
+interval=5
+background=#FF92D0
+
+[space]
+full_text= 
+color=#FF92D0
+background=#FF92D0
+
+[space]
+full_text= 
+color=#8BE9FD
+background=#8BE9FD
+
+[disk]
+command=~/.local/libexec/i3blocks/disk
+LABEL= 
+DIR=/home/savorn
+ALERT_LOW=10
+interval=30
+background=#8BE9FD
+
+[space]
+full_text= 
+color=#8BE9FD
+background=#8BE9FD
+
+[space]
+full_text= 
+color=#BD93F9
+background=#BD93F9
+
+[volume-pulseaudio]
+command=~/.local/libexec/i3blocks/volume-pulseaudio
+interval=once
+signal=10
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+##exposed format variables: ${SYMB}, ${VOL}, ${INDEX}, ${NAME}
+LONG_FORMAT="${SYMB} ${VOL}%"
+SHORT_FORMAT="${SYMB} ${VOL}%"
+AUDIO_HIGH_SYMBOL=
+AUDIO_MED_THRESH=75
+AUDIO_MED_SYMBOL=
+AUDIO_LOW_THRESH=0
+AUDIO_LOW_SYMBOL=
+AUDIO_DELTA=5
+DEFAULT_COLOR="#F8F8F2"
+MUTED_COLOR="#282A36"
+#USE_ALSA_NAME=0
+#USE_DESCRIPTION=0
+## SUBSCRIBE=1 requires interval=persist and always uses LONG_FORMAT
+#SUBSCRIBE=0
+background=#BD93F9
+
+[space]
+full_text= 
+color=#BD93F9
+background=#BD93F9
+
+[space]
+full_text= 
+color=#282A36
+background=#282A36
+
+[bandwidth]
+command=~/.local/libexec/i3blocks/bandwidth
+interval=5
+INTERFACE=wlp3s0
+INLABEL= 
+OUTLABEL= 
+TREAT_UNKNOWN_AS_UP=1
+
+[space]
+full_text= 
+color=#282A36
+background=#282A36
+
+[space]
+full_text= 
+color=#BFBFBF
+background=#BFBFBF
+
+[battery2]
+command=~/.local/libexec/i3blocks/battery2
+markup=pango
+interval=5
+background=#BFBFBF
+
+[space]
+full_text= 
+color=#BFBFBF
+background=#BFBFBF
+
+[space]
+full_text= 
+color=#6272A4
+background=#6272A4
+
+[time]
+command=date '+%l:%M %p'
+interval=1
+label= 
+background=#6272A4
+
+[space]
+full_text= 
+color=#6272A4
+background=#6272A4
