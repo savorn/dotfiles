@@ -79,8 +79,8 @@ background=#BD93F9
 
 [space]
 full_text= 
-color=#282A36
-background=#282A36
+color=#FFB86C
+background=#FFB86C
 
 [bandwidth]
 command=~/.local/libexec/i3blocks/bandwidth
@@ -89,11 +89,12 @@ INTERFACE=wlp3s0
 INLABEL= 
 OUTLABEL= 
 TREAT_UNKNOWN_AS_UP=1
+background=#FFB86C
 
 [space]
 full_text= 
-color=#282A36
-background=#282A36
+color=#FFB86C
+background=#FFB86C
 
 [space]
 full_text= 
@@ -116,8 +117,19 @@ full_text=
 color=#6272A4
 background=#6272A4
 
+[date]
+command=date '+%a %b %d'
+interval=1
+label= 
+background=#6272A4
+
+[space]
+full_text= 
+color=#6272A4
+background=#6272A4
+
 [time]
-command=date '+%l:%M %p'
+command=date '+%I:%M %p'
 interval=1
 label= 
 background=#6272A4
