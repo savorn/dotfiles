@@ -1,7 +1,7 @@
 " color scheme
-set background=light
+packadd! dracula
 syntax enable
-colorscheme solarized " colorscheme
+colorscheme dracula " colorscheme
 
 " options
 set nocompatible " reset options when re-source .vimrc
