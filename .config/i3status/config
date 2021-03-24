@@ -32,7 +32,7 @@ ethernet _first_ {
 }
 
 battery 1 {
-        format = " bat: %percentage %status "
+        format = " battery: %percentage (%status) "
 	format_down = " No Battery "
 	status_chr = "CHR"
 	status_bat = "BAT"
@@ -50,9 +50,9 @@ load {
 }
 
 memory {
-        format = " mem: %used / %total "
+        format = " RAMs: %used "
         threshold_degraded = "1G"
-        format_degraded = " mem: %used / %total "
+        format_degraded = " mem: %used "
 }
 
 tztime local {
@@ -60,6 +60,6 @@ tztime local {
 }
 
 volume master {
-	format = " vol: %volume "
+	format = " volume: %volume "
 	format_muted = " vol: %volume (muted) "
 }

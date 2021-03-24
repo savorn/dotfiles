@@ -10,3 +10,5 @@ source ~/.bash_aliases
 
 # prompt
 PS1='[\u@\h \W]\$ '
+source "$HOME/.cargo/env"
+source /home/savorn/src/alacritty/extra/completions/alacritty.bash

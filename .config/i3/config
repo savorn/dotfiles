@@ -28,7 +28,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- xscreensaver-command -loc
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # apply background with feh
 exec ~/.fehbg
@@ -37,13 +37,13 @@ exec ~/.fehbg
 exec redshift &
 
 # urxvt daemon
-exec urxvtd -q -o -f
+#exec urxvtd -q -o -f
 
 # load X resources
 exec xrdb -merge ~/.Xresources
 
 # load fonts
-exec xset +fp /home/savorn/.fonts/inconsolata
+exec xset +fp /home/savorn/.fonts/iosevka
 exec xset fp rehash
 
 # control backlight
@@ -51,15 +51,15 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 
 # Use pactl to adjust volume in PulseAudio.
-bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 5%+ && pkill -RTMIN+10 i3blocks 
-bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 5%- && pkill -RTMIN+10 i3blocks
-bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle && pkill -RTMIN+10 i3blocks
+bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 5%+ 
+bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 5%-
+bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvtc
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -208,7 +208,7 @@ client.background       #F8F8F2
 
 bar {
 	position top
-	status_command i3blocks
+	status_command i3status
   colors {
     background #282A36
     statusline #F8F8F2
