@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Iosevka Bold 11
+font pango:Iosevka Medium 13
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -23,8 +23,8 @@ font pango:Iosevka Bold 11
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xscreensaver -no-splash &
-exec --no-startup-id xss-lock --transfer-sleep-lock -- xscreensaver-command -lock
+#exec --no-startup-id xscreensaver -no-splash &
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- xscreensaver-command -lock
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -44,6 +44,7 @@ exec xrdb -merge ~/.Xresources
 
 # load fonts
 exec xset +fp /home/savorn/.fonts/iosevka
+exec xset +fp /usr/local/share/fonts/font-awesome
 exec xset fp rehash
 
 # control backlight
@@ -51,9 +52,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 
 # Use pactl to adjust volume in PulseAudio.
-bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 5%+ 
-bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 5%-
-bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle
+bindsym XF86AudioRaiseVolume exec mixer vol +5 
+bindsym XF86AudioLowerVolume exec mixer vol -5
+bindsym XF86AudioMute exec mixer vol ^
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -208,7 +209,8 @@ client.background       #F8F8F2
 
 bar {
 	position top
-	status_command i3status
+	status_command i3blocks
+	separator_symbol " "
   colors {
     background #282A36
     statusline #F8F8F2
@@ -222,4 +224,4 @@ bar {
   }
 }
 
-bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'Iosevka-13' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'Iosevka Medium-13' -p 'dmenu:'"
