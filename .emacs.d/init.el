@@ -12,7 +12,7 @@
 (load-theme 'dracula t)
 
 ;; font
-(set-face-attribute 'default nil :font "Iosevka-11")
+(set-face-attribute 'default nil :font "Iosevka-13")
 
 ;; disable scrollbar
 (toggle-scroll-bar -1)
