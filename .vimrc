@@ -1,4 +1,5 @@
 " color scheme
+set t_Co=256
 packadd! dracula
 syntax enable
 colorscheme dracula " colorscheme
