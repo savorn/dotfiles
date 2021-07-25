@@ -2,4 +2,4 @@
 
 #include "/home/savorn/dotfiles/Xresources.d/fontconfig"
 #include "/home/savorn/dotfiles/Xresources.d/urxvt"
-#include "/home/savorn/dotfiles/Xresources.d/urxvt-solarized-light"
+#include "/home/savorn/dotfiles/Xresources.d/urxvt-dracula"

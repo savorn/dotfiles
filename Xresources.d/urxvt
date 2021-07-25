@@ -9,10 +9,10 @@
 !URxvt.italicFont: xft:Inconsolata:style=Medium:pixelsize=16
 !URxvt.boldItalicFont: xft:Inconsolata:style=Bold:pixelsize=16
 
-URxvt.font: xft:Iosevka:style=Medium:pixelsize=16
-URxvt.boldFont: xft:Iosevka:style=Bold:pixelsize=16
-URxvt.italicFont: xft:Iosevka:style=Oblique:pixelsize=16
-URxvt.boldItalicFont: xft:Iosevka:style=BoldOblique:pixelsize=16
+URxvt.font: xft:Iosevka:style=Medium:size=12
+URxvt.boldFont: xft:Iosevka:style=Bold:size=12
+URxvt.italicFont: xft:Iosevka:style=Oblique:size=12
+URxvt.boldItalicFont: xft:Iosevka:style=BoldOblique:size=12
 
 ! font spacing
 !URxvt.letterSpace: -1
